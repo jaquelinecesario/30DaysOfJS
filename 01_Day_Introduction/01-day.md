@@ -1,4 +1,4 @@
-# Day 1 - Introduction
+# 📔 Day 1 - Introduction
 
 - [Setup](#setup)
 	- [Install Node.js](#install-nodejs)
