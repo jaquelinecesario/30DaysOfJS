@@ -32,7 +32,7 @@
 
 We can check if node is installed on our local machine by opening our device terminal or command prompt.
 
-```node -v```
+`node -v`
 
 
 ### Browser
@@ -52,17 +52,17 @@ Keyboard Shortcut - F12, Ctl+Shift+I, Ctl+Shift+J
 #### Writing Code on Browser Console
 
 ##### Console.log
- ```console.log('Hello, World!')```  
+ `console.log('Hello, World!')`  
 
 
 ##### Console.log with Multiple Arguments
-```console.log(param1, param2, param3)```
+`console.log(param1, param2, param3)`
 
 ##### Comments
 
-Single Line Comment - ```// comment```
+Single Line Comment - `// comment`
 
-Multiline Comment - ```/* comment */```
+Multiline Comment - `/* comment */`
 
 ##### Syntax
 
@@ -74,7 +74,7 @@ If we do not write a syntax that JavaScript understands, it will raise different
 
 #### Arithmetics
 
-```
+```js
 console.log(2 + 3) // Addition
 console.log(3 - 2) // Subtraction
 console.log(2 * 3) // Multiplication
@@ -95,7 +95,7 @@ Install Live Server Extension
 
 ### Inline Script
 
-```<button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>```
+`<button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>`
 
 ### Internal Script
 
@@ -121,7 +121,7 @@ Float-point numbers: Decimal number Example ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2
 
 A collection of one or more characters between two single quotes, double quotes, or backticks.
 
-```
+```js
 'a'
 'Asabeneh'
 "Asabeneh"
@@ -140,7 +140,7 @@ A boolean value is either True or False. Any comparisons returns a boolean value
 
 A boolean data type is either a true or false value.
 
-```
+```js
 true // if the light is on, the value is true
 false // if the light is off, the value is false
 ```
@@ -149,7 +149,7 @@ false // if the light is off, the value is false
 
 In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
 
-```
+```js
 let firstName
 console.log(firstName) // undefined, because it is not assigned to a value yet
 ```
@@ -158,7 +158,7 @@ console.log(firstName) // undefined, because it is not assigned to a value yet
 
 Null in JavaScript means an empty value.
 
-```
+```js
 let emptyValue = null
 ```
 
@@ -166,7 +166,7 @@ let emptyValue = null
 
 To check the data type of a certain variable, we use the typeof operator
 
-```
+```js
 console.log(typeof 'Asabeneh') // string
 console.log(typeof 5) // number
 console.log(typeof true) // boolean
@@ -193,12 +193,12 @@ A valid JavaScript variable name must follow the following rules:
 
 In this material, we will use camelCase variables(camelWithOneHump). We use CamelCase(CamelWithTwoHump) to declare classes.
 
-```
+```js
 // Syntax
 let nameOfVariable = value
 ```
 
-```
+```js
 // Variables can also be declaring in one line separated by comma, however I recommend to use a seperate line to make code more readble
 let name = 'Asabeneh', job = 'teacher', live = 'Finland'
 console.log(name, job, live)

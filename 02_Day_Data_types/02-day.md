@@ -64,7 +64,7 @@ Numbers are integers and decimal values which can do all the arithmetic operatio
 
 ### Declaring Number Data Types
 
-```
+```js
 let age = 35
 const gravity = 9.81  // we use const for non-changing values
 ```
@@ -73,7 +73,7 @@ const gravity = 9.81  // we use const for non-changing values
 
 Math Object provides a lots of methods to work with numbers.
 
-```
+```js
 const PI = Math.PI
 console.log(PI) // 3.141592653589793
 
@@ -133,7 +133,7 @@ Math.cos(60)
 
 The JavaScript Math Object has a random() method number generator which generates number from 0 to 0.999999999...
 
-```
+```js
 let randomNum = Math.random() // generates 0 to 0.999
 let numBtnZeroAndTen = randomNum * 11
 
@@ -156,7 +156,7 @@ We can concatenate strings in different ways.
 
 Concatenating using the addition operator is an old way. This way of concatenating is tedious and error-prone. It is good to know how to concatenate this way, but I strongly suggest to use the ES6 template strings.
 
-```
+```js
 let fullName =firstName + space + lastName
 let personInfoOne = fullName + '. I am ' + age + '. I live in ' + country; // ES5 string addition
 ```
@@ -179,7 +179,7 @@ In JavaScript and other programming languages \ followed by some characters is a
 
 To create a template strings, we use two back-ticks. We can inject data as expressions inside a template string. To inject data, we enclose the expression with a curly bracket({}) preceded by a $ sign.
 
-```
+```js
 //Syntax
 `String literal text`
 `String literal text ${expression}`
@@ -187,7 +187,7 @@ To create a template strings, we use two back-ticks. We can inject data as expre
 
 Using a string template or string interpolation method, we can add expressions, which could be a value, or some operations (comparison, arithmetic operations, ternary operation).
 
-```
+```js
 let a = 2
 let b = 3
 console.log(`${a} is greater than ${b}: ${a > b}`)
@@ -209,14 +209,14 @@ Everything in JavaScript is an object. A string is a primitive data type that me
 10. *replace()*: takes as a parameter the old substring and a new substring. `string.replace(oldsubstring, newsubstring)`
 11. *charAt()*: Takes index and it returns the value at that index `string.charAt(index)`
 12. *charCodeAt()*: Takes index and it returns char code (ASCII number) of the value at that index `string.charCodeAt(index)`
-13. *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1 `string.indexOf(substring`
+13. *indexOf()*: Takes a substring and if the substring exists in a string it returns the first position of the substring if does not exist it returns -1 `string.indexOf(substring)`
 14. *lastIndexOf()*: Takes a substring and if the substring exists in a string it returns the last position of the substring if it does not exist it returns -1 `string.lastIndexOf(substring)`
 15. *concat()*: it takes many substrings and joins them. `string.concat(substring, substring, substring)`
 16. *startsWith*: it takes a substring as an argument and it checks if the string starts with that specified substring. It returns a boolean(true or false). `string.startsWith(substring)`
 17. *endsWith*: it takes a substring as an argument and it checks if the string ends with that specified substring. It returns a boolean(true or false). `string.endsWith(substring)`
 18. *search*: it takes a substring as an argument and it returns the index of the first match. The search value can be a string or a regular expression pattern. `string.search(substring)`
 19. *match*: it takes a substring or regular expression pattern as an argument and it returns an array if there is match if not it returns null. Let us see how a regular expression pattern looks like. It starts with / sign and ends with / sign. `let patternTwo = /love/gi   // g-means to search in the whole text, i - case insensitive` `string.match(substring`
-20. *trim()*: Removes trailing space in the beginning or the end of a string. `string.match(substring)`
+20. *repeat()*: it takes a number as argument and it returns the repeated version of the string. `string.repeat(n)`
 
 ## Checking Data Types and Casting
 
