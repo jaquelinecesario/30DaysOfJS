@@ -1,6 +1,6 @@
 # 📔 Day 3 - Booleans, Operators, Date
 
-- [ooleans](#booleans)
+- [Booleans](#booleans)
 	- [Truthy values](#truthy-values)
 	- [Falsy values](#falsy-values)
 - [Undefined](#undefined)
