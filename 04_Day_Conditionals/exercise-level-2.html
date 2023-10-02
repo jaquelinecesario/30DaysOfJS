@@ -1,0 +1,97 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: 03 Day</title>
+    <style>
+        button {
+            display: block;
+            margin: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="studentsGrades()">Studentes Grades</button>
+    <button onclick="season()">Season</button>
+    <button onclick="dayOfTheWeek()">Day of the Week</button>
+
+    <script>
+        function studentsGrades() {
+            let score = Number(prompt("Enter the score student:"))
+
+            switch (true) {
+                case score <= 49:
+                    alert("Grade Student is F")
+                    break;
+                case score <= 59:
+                    alert("Grade Student is D")
+                    break;
+                case score <= 69:
+                    alert("Grade Student is C")
+                    break;
+                case score <= 79:
+                    alert("Grade Student is B")
+                    break;
+                case score >= 80 && score <= 100:
+                    alert("Grade Student is A")
+                    break;
+                default:
+                    alert("Entered value was not a number or it is an invalid number.")
+                    break;
+            }
+        }
+
+        function season() {
+            let monthUserInput = prompt('What month is now?')
+            let month = monthUserInput.toLowerCase()
+
+            if (month === "september" || month === "october" || month === "november") {
+                alert("The season is Autumn")
+            } else if (month === "december" || month === "january" || month === "februaryr") {
+                alert("The season is Winter")
+            } else if (month === "march" || month === "april" || month === "may") {
+                alert("The season is Spring")
+            } else if (month === "june" || month === "july" || month === "august") {
+                alert("The season is Summer")
+            }
+        }
+
+        function dayOfTheWeek() {
+            let dayUserInput = prompt('What is the day today?')
+            let dayOfTheWeek = dayUserInput.toLowerCase()
+
+            switch (dayOfTheWeek) {
+                case 'monday':
+                    alert("Monday is a working day.")
+                    break;
+                case 'tuesday':
+                    alert("Tuesday is a working day.")
+                    break;
+                case 'wednesday':
+                    alert("Wednesday is a working day.")
+                    break;
+                case 'thursday':
+                    alert("Thursday is a working day.")
+                    break;
+                case 'friday':
+                    alert("Friday is a working day.")
+                    break;
+                case 'saturday':
+                    alert("Saturday is a weekend.")
+                    break;
+                case 'sunday':
+                    alert("Sunday is a weekend.")
+                    break;
+                default:
+                    alert('It is not a week day.')
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>

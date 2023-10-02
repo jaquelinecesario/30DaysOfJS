@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: 03 Day</title>
+    <style>
+        button {
+            display: block;
+            margin: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="driveAge()">Drive Age</button>
+    <button onclick="ageComparation()">Age Comparation</button>
+    <button onclick="numberComparation()">Number Comparation</button>
+    <button onclick="divisibleByTwo()">Divisible by Two</button>
+
+    <script>
+        function driveAge() {
+            let age = Number(prompt("Enter your age:"))
+            if (age >= 18) {
+                alert("You are old enough to drive.")
+            } else {
+                let diference = 18 - age
+                alert(`You are left with ${diference} years to drive.`)
+            }
+        }
+
+        function ageComparation() {
+            let myAge = 27
+            let yourAge = Number(prompt("Enter your age:"))
+            let diference
+            
+            if (myAge > yourAge) {
+                diference = myAge - yourAge
+                alert(`I am ${diference} years older than you.`)
+            } else {
+                diference = yourAge - myAge
+                alert(`You are ${diference} years older than me.`)
+            }
+        }
+
+        function numberComparation() {
+            let a = Number(prompt("Enter the value of a:"))
+            let b = Number(prompt("Enter the value of b:"))
+
+            if (a > b) {
+                alert("a is greater than b")
+            } else {
+                alert("a is less than b")
+            }
+
+            a > b ? console.log("a is greater than b") : console.log("a is less than b");
+        }
+
+        function divisibleByTwo() {
+            let number = Number(prompt("Enter a number:"))
+
+            if (number % 2 === 0) {
+                alert(`${number} is an even number.`)
+            } else {
+                alert(`${number} is an odd number.`)
+            }
+        }
+    </script>
+</body>
+
+</html>
