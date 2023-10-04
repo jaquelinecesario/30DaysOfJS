@@ -463,17 +463,11 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
    ```
 
 3. Get length and width using prompt and calculate an area of rectangle (area = length x width) and the perimeter of rectangle (perimeter = 2 x (length + width))
-
 4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-
 5. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-
 6. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
-
 7. Compare the slope of above two questions.
-
 8. Calculate the value of y (y = x<sup>2</sup> + 6x + 9). Try to use different x values and figure out at what x value y is 0.
-
 9. Write a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
     ```sh
@@ -483,7 +477,6 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
     ```
 
 10. If the length of your name is greater than 7 say, your name is long else say your name is short.
-
 11. Compare your first name length and your family name length and you should get this output.
 
     ```js

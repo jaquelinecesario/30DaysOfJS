@@ -208,11 +208,8 @@ for(let i = 0; i <= 5; i++){
   ```
 
 1. Iterate 0 to 10 using for loop, do the same using while and do while loop
-
 2. Iterate 10 to 0 using for loop, do the same using while and do while loop
-
 3. Iterate 0 to n using for loop
-
 4. Write a loop that makes the following pattern using console.log():
 
    ```js
@@ -259,11 +256,8 @@ for(let i = 0; i <= 5; i++){
    ```
 
 7. Use for loop to iterate from 0 to 100 and print only even numbers
-
 8. Use for loop to iterate from 0 to 100 and print only odd numbers
-
 9. Use for loop to iterate from 0 to 100 and print only prime numbers
-
 10. Use for loop to iterate from 0 to 100 and print the sum of all numbers.
 
     ```sh
@@ -283,9 +277,7 @@ for(let i = 0; i <= 5; i++){
     ```
 
 13. Develop a small script which generate array of 5 random numbers
-
 14. Develop a small script which generate array of 5 random numbers and the numbers must be unique
-
 15. Develop a small script which generate a six characters random id:
 
     ```sh
@@ -380,11 +372,8 @@ for(let i = 0; i <= 5; i++){
     ```
 
 13. An application created using MongoDB, Express, React and Node is called a MERN stack app. Create the acronym MERN by using the array mernStack
-
 14. Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items.
-
 15. This is a fruit array , ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop without using a reverse method.
-
 16. Print all the elements of array as shown below.
 
     ```js
@@ -407,19 +396,11 @@ for(let i = 0; i <= 5; i++){
 ### Exercises: Level 3
 
 1. Copy countries array(Avoid mutation)
-
 2. Arrays are mutable. Create a copy of array which does not modify the original. Sort the copied array and store in a variable sortedCountries
-
 3. Sort the webTechs array and mernStack array
-
 4. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-
 5. Find the country containing the hightest number of characters in the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)
-
 6. Extract all the countries contain the word 'land' from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-
 7. Extract all the countries containing only four characters from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-
 8. Extract all the countries containing two or more words from the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and print it as array
-
 9. Reverse the [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) and capitalize each country and stored it as an array
