@@ -1,34 +1,34 @@
-// const countries = [
-//   "Albania",
-//   "Bolivia",
-//   "Canada",
-//   "Denmark",
-//   "Ethiopia",
-//   "Finland",
-//   "Germany",
-//   "Hungary",
-//   "Ireland",
-//   "Japan",
-//   "Kenya",
-// ];
+const countries = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+];
 
-// const sortedCountries = countries.sort();
+const sortedCountries = countries.sort();
 
-// const webTechs = [
-//   "HTML",
-//   "CSS",
-//   "JavaScript",
-//   "React",
-//   "Redux",
-//   "Node",
-//   "MongoDB",
-// ];
+const webTechs = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Redux",
+  "Node",
+  "MongoDB",
+];
 
-// const sortedWebTEchs = webTechs.sort();
+const sortedWebTEchs = webTechs.sort();
 
-// const mernStack = ["MongoDB", "Express", "React", "Node"];
+const mernStack = ["MongoDB", "Express", "React", "Node"];
 
-// const sortedMermStack = mernStack.sort();
+const sortedMermStack = mernStack.sort();
 
 const countriesTwo = [
   "Afghanistan",
@@ -226,37 +226,37 @@ const countriesTwo = [
   "Zimbabwe",
 ];
 
-// const countriesWithLand = [];
-// for (let i = 0; i < countriesTwo.length; i++) {
-//   if (countriesTwo[i].includes("land")) {
-//     countriesWithLand.push(countriesTwo[i]);
-//   }
-// }
-// console.log(countriesWithLand);
+const countriesWithLand = [];
+for (let i = 0; i < countriesTwo.length; i++) {
+  if (countriesTwo[i].includes("land")) {
+    countriesWithLand.push(countriesTwo[i]);
+  }
+}
+console.log(countriesWithLand);
 
-// let hightestNumChar = "";
-// for (let i = 0; i < countriesTwo.length; i++) {
-//   if (countriesTwo[i].length > hightestNumChar.length) {
-//     hightestNumChar = countriesTwo[i];
-//   }
-// }
-// console.log(hightestNumChar);
+let hightestNumChar = "";
+for (let i = 0; i < countriesTwo.length; i++) {
+  if (countriesTwo[i].length > hightestNumChar.length) {
+    hightestNumChar = countriesTwo[i];
+  }
+}
+console.log(hightestNumChar);
 
-// const countriesFourChar = [];
-// for (let i = 0; i < countriesTwo.length; i++) {
-//   if (countriesTwo[i].length === 4) {
-//     countriesFourChar.push(countriesTwo[i]);
-//   }
-// }
-// console.log(countriesFourChar);
+const countriesFourChar = [];
+for (let i = 0; i < countriesTwo.length; i++) {
+  if (countriesTwo[i].length === 4) {
+    countriesFourChar.push(countriesTwo[i]);
+  }
+}
+console.log(countriesFourChar);
 
-// const countriesPlusTwoWords = [];
-// for (let i = 0; i < countriesTwo.length; i++) {
-//   if (countriesTwo[i].includes(" ")) {
-//     countriesPlusTwoWords.push(countriesTwo[i]);
-//   }
-// }
-// console.log(countriesPlusTwoWords);
+const countriesPlusTwoWords = [];
+for (let i = 0; i < countriesTwo.length; i++) {
+  if (countriesTwo[i].includes(" ")) {
+    countriesPlusTwoWords.push(countriesTwo[i]);
+  }
+}
+console.log(countriesPlusTwoWords);
 
 countriesTwo.reverse()
 const countriesTwoReverse = [];
