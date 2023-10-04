@@ -1,5 +1,3 @@
-// Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file (não funciona os módulos e o material não explica como fazer)
-
 let text = "I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.";
 text = text.replace(/\./g, '').replace(/,/g, '')
 console.log(text);
