@@ -1,4 +1,4 @@
-const alphanumeric = "0123456789abcdefghijklmnopqrstuvxyz";
+const alphanumeric = "0123456789abcdefghijklmnopqrstuvwxyz";
 let charactersNumber = Math.floor(Math.random() * 51);
 let randomCharacters = "";
 for (let i = 1; i <= charactersNumber; i++) {
@@ -8,12 +8,12 @@ for (let i = 1; i <= charactersNumber; i++) {
 console.log(randomCharacters);
 
 const hexadecimalSymbols = "0123456789abcdef";
-let hexadicimalCode = "";
+let hexadecimalCode = "";
 for (let i = 1; i <= 6; i++) {
   let index = Math.floor(Math.random() * hexadecimalSymbols.length);
-  hexadicimalCode = hexadicimalCode.concat(hexadecimalSymbols.charAt(index));
+  hexadecimalCode = hexadecimalCode.concat(hexadecimalSymbols.charAt(index));
 }
-console.log(`#${hexadicimalCode}`);
+console.log(`#${hexadecimalCode}`);
 
 let firstRGB = "";
 let secondRGB = "";

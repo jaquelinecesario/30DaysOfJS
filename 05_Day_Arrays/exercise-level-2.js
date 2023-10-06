@@ -37,7 +37,7 @@ const countries = [
 
 if (countries.indexOf("Ethiopia") !== -1) {
   let ethiopiaIndex = countries.indexOf("Ethiopia")
-  console.log(countries[ethiopiaIndex].toLocaleUpperCase());
+  console.log(countries[ethiopiaIndex].toUpperCase());
 } else {
   countries.push("Ethiopia")
   console.log(countries);
